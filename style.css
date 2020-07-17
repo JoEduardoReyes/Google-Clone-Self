@@ -13,6 +13,10 @@ body {
   flex-direction: column;
   justify-content: space-between;
   color: var(--grey-soft);
+  box-sizing: 100vh;
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
 }
 
 /* hearder */
@@ -107,4 +111,41 @@ header nav ul li {
 
 .search-location {
   font-size: 12px;
+}
+
+/* estilos del footer */
+
+.footer {
+  background-color: #f1f1f1;
+  border: solid 1px #e9e9e9;
+  height: 5vh;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  padding: 0px 20px;
+  font-size: 15px;
+}
+
+.footer,
+.links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-list {
+  display: flex;
+  list-style: none;
+}
+
+.left {
+  padding-left: 0px;=
+}
+
+.left li {
+  margin-right: 20px;
+}
+
+.right li {
+  margin-left: 20px;
+
 }
