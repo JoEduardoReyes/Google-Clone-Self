@@ -1,3 +1,40 @@
+:root {
+  --grey-soft: #777777;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  height: 100vh;
+}
+
+header {
+  height: 5vh;
+  vertical-align: center;
+}
+
+header nav {
+  display: flex;
+  flex-direction: row-reverse;
+  color: var(--grey-soft);
+}
+
 header nav ul {
   display: flex;
+  list-style: none;
+  font-size: 12.5px;
+  align-items: center;
+}
+
+.perfil {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+
+.fa-th {
+  font-size: 25px;
+}
+
+header nav ul li {
+  margin: 0px 8px;
 }
